@@ -1,0 +1,90 @@
+body {
+	background: #00bfff;
+	font-family: 'Nunito', sans-serif;
+	padding-top: 70px;
+}
+
+#mainNavbar {
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+
+#mainNavbar .nav-link{
+	color: white;
+}
+
+#mainNavbar .nav-link:hover{
+	color: #ea1c2c;
+}
+
+#mainNavbar .navbar-brand {
+	color: #ea1c2c;
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+
+#about {
+	height: 100px;
+	padding-top: 40px;
+}
+
+#container {
+	background-color: #003049;
+	width: 50%;
+	height: 110px;
+	margin: 0 auto;
+	border: 5px solid #003049;
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+}
+
+#container div {
+	width: 90px;
+	height: 100px;
+}
+
+#container div:nth-of-type(1) {
+	background-color: cornsilk;
+	width: 115px;
+}
+
+#container div:nth-of-type(2) {
+	background-color: darkgray;
+	width: 210px;
+}
+
+#container div:nth-of-type(3) {
+	background-color: white;
+	width: 100px;
+}
+
+.jumbotron {
+	color: #2c3e50;
+	background: #ecf0f1;
+}
+
+h2 {
+	text-align: center;
+	font-size: 2.5rem;
+	padding: 10px 0;
+}
+
+.self h2 {
+	border-bottom: 2px solid black;
+}
+
+.self p {
+	line-height: 2;
+}
+
+.navbar.scrolled {
+	background: darkblue;
+}
+
+@media (max-width: 1200px) {
+	h2 {
+		font-weight: 100;
+		font-size: 3rem;
+	}
+}
